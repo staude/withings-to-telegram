@@ -1,0 +1,24 @@
+# Credentials & Session-Daten — NIEMALS einchecken
+.env
+.env.*
+!.env.template
+.env~
+.env.bak
+state.json
+telegram.session
+telegram.session-journal
+*.session
+*.session-journal
+
+# Python-Umgebung
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# OS-Krempel
+.DS_Store
+Thumbs.db
